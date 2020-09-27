@@ -1,0 +1,24 @@
+{
+  "name": "node-crud-mysql",
+  "version": "1.0.0",
+  "description": "Simple CRUD with NodeJS and MySQL",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JhonathanMusa/node-crud-mysql.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JhonathanMusa/node-crud-mysql/issues"
+  },
+  "homepage": "https://github.com/JhonathanMusa/node-crud-mysql#readme",
+  "dependencies": {
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {}
+}
