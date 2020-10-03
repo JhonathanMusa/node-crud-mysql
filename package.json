@@ -4,6 +4,7 @@
   "description": "Simple CRUD with NodeJS and MySQL",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,7 +19,10 @@
   },
   "homepage": "https://github.com/JhonathanMusa/node-crud-mysql#readme",
   "dependencies": {
+    "express": "^4.17.1",
     "mysql": "^2.18.1"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
 }
